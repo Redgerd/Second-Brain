@@ -1,6 +1,11 @@
 ---
-title: Welcome to Quartz
+title: Data Vault
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+### Data Engineering Foundations
+
+- [[Advanced SQL — Window Functions & CTEs]]
+- [[SQL Query Optimization & Execution Plans]]
+- [[Indexing & Partitioning]]
+- [[OLAP vs OLTP]]
+- [[Relational Databases — PostgreSQL & MySQL]]
