@@ -1,0 +1,10 @@
+- [[Dimensional Modeling]] (for BI workloads)
+- Schema-on-Read + Schema-on-Write hybrid
+- ACID Table Modeling
+- Incremental / Merge-based Modeling
+- Unified Data Modeling (single source for BI + ML)
+- Open Table Format Modeling
+    - Delta Lake
+    - Apache Iceberg
+    - Apache Hudi
+- Medallion Architecture (Bronze/Silver/Gold)

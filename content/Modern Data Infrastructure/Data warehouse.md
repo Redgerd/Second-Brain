@@ -1,0 +1,13 @@
+- [[Dimensional Modeling]]
+    - Star Schema
+    - Snowflake Schema
+    - Fact Constellation (Galaxy Schema)
+- Fact Table Design
+    - Transaction Fact
+    - Snapshot Fact
+    - Accumulating Snapshot Fact
+- Dimension Modeling
+    - [[Slowly Changing Dimensions (SCD)]]
+    - Conformed Dimensions
+    - Junk Dimensions
+- [[Kimball Methodology]]

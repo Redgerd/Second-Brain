@@ -1,0 +1,9 @@
+- Schema-on-Read Design
+- Metadata-Driven Modeling
+- Data Catalog Modeling
+- Layered Data Design
+    - Bronze (Raw)
+    - Silver (Cleaned)
+    - Gold (Curated)
+- Event / Log-based Data Modeling
+- Semi-structured & Unstructured Data Modeling
