@@ -28,26 +28,28 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
+        // Cybermint Lavender
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#C9E0EB", // Pale Sky (Main Background)
+          lightgray: "#7392B5", // Dusty Denim (Borders/Low contrast)
+          gray: "#8350C4", // Deep Lilac (Graph nodes/Subtle text)
+          darkgray: "#402B47", // Midnight Violet (Body text)
+          dark: "#262423", // Shadow Grey (Headers/Main titles)
+          secondary: "#8350C4", // Deep Lilac (Links/Primary Accent)
+          tertiary: "#7392B5", // Dusty Denim (Hover states)
+          highlight: "rgba(131, 80, 196, 0.15)", // Deep Lilac Highlight
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          // Stone Gray Lavender
+          light: "#262423", // Shadow Grey (Deep Background)
+          lightgray: "#402B47", // Midnight Violet (Borders/UI elements)
+          gray: "#7392B5", // Dusty Denim (Graph nodes)
+          darkgray: "#C9E0EB", // Pale Sky (Body text)
+          dark: "#FFFFFF", // White (High contrast Headers)
+          secondary: "#cda7ff", // Deep Lilac (Links/Primary Accent)
+          tertiary: "#7392B5", // Dusty Denim (Hover states)
+          highlight: "rgba(115, 146, 181, 0.2)", // Dusty Denim Highlight
           textHighlight: "#b3aa0288",
         },
       },
