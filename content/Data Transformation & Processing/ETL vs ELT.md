@@ -1,3 +1,14 @@
+---
+title: ETL vs ELT
+draft: false
+alias:
+  - ETL (Extract, Transform, Load)
+  - ELT (Extract, Load, Transform)
+tags:
+  - foundation
+  - data-transformation
+---
+
 | **Parameters**             | **ETL (Extract, Transform & Load)**                                                                                                                      | **ELT (Extract, Load & Transform)**                                                                                              |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | **Data size**              | Better suited for dealing with small to medium structured datasets that require complex transformations.                                                 | Better suited when dealing with massive amounts of structured & unstructured data                                                |

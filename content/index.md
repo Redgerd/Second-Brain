@@ -1,7 +1,6 @@
 ---
-title: Secound Brain
+title: Second Brain
 ---
-
 # Data Engineering Knowledge Map
 
 ## Data Engineering Foundations
