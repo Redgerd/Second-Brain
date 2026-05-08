@@ -30,13 +30,13 @@ const config: QuartzConfig = {
       colors: {
         // Cybermint Lavender
         lightMode: {
-          light: "#C9E0EB", // Pale Sky (Main Background)
+          light: "#aabec8", // Pale Sky (Main Background)
           lightgray: "#7392B5", // Dusty Denim (Borders/Low contrast)
           gray: "#8350C4", // Deep Lilac (Graph nodes/Subtle text)
           darkgray: "#402B47", // Midnight Violet (Body text)
           dark: "#262423", // Shadow Grey (Headers/Main titles)
           secondary: "#8350C4", // Deep Lilac (Links/Primary Accent)
-          tertiary: "#7392B5", // Dusty Denim (Hover states)
+          tertiary: "#73b586", // Dusty Denim (Hover states)
           highlight: "rgba(131, 80, 196, 0.15)", // Deep Lilac Highlight
           textHighlight: "#fff23688",
         },
@@ -45,10 +45,10 @@ const config: QuartzConfig = {
           light: "#262423", // Shadow Grey (Deep Background)
           lightgray: "#402B47", // Midnight Violet (Borders/UI elements)
           gray: "#7392B5", // Dusty Denim (Graph nodes)
-          darkgray: "#C9E0EB", // Pale Sky (Body text)
+          darkgray: "#d4d4d4", // Pale Sky (Body text)
           dark: "#FFFFFF", // White (High contrast Headers)
           secondary: "#cda7ff", // Deep Lilac (Links/Primary Accent)
-          tertiary: "#7392B5", // Dusty Denim (Hover states)
+          tertiary: "#38669a", // Dusty Denim (Hover states)
           highlight: "rgba(115, 146, 181, 0.2)", // Dusty Denim Highlight
           textHighlight: "#b3aa0288",
         },
