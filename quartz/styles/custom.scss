@@ -1,3 +1,163 @@
+@use "./variables.scss" as *;
 @use "./base.scss";
 
-// put your custom CSS here!
+.hero-box {
+  padding: 2.75rem 2rem;
+
+  border-radius: 24px;
+
+  text-align: center;
+
+  margin: 1.5rem 0 3rem 0;
+
+  position: relative;
+  overflow: hidden;
+
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--light) 88%, var(--secondary)),
+    color-mix(in srgb, var(--light) 75%, var(--tertiary))
+  );
+
+  border: 1px solid color-mix(in srgb, var(--secondary) 16%, transparent);
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* subtle ambient glow */
+.hero-box::before {
+  content: "";
+
+  position: absolute;
+
+  width: 380px;
+  height: 380px;
+
+  top: -200px;
+  right: -120px;
+
+  pointer-events: none;
+
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--secondary) 14%, transparent),
+    transparent 72%
+  );
+}
+
+.hero-box h1 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+
+  font-size: 2.3rem;
+
+  letter-spacing: 1px;
+
+  color: var(--dark);
+
+  line-height: 1.2;
+}
+
+.hero-box h2 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+
+  font-size: 1.15rem;
+
+  font-weight: 600;
+
+  letter-spacing: 0.4px;
+
+  color: var(--secondary);
+
+  line-height: 1.5;
+}
+
+.hero-box p {
+  max-width: 760px;
+
+  margin: 0 auto;
+
+  font-size: 1rem;
+
+  line-height: 1.9;
+
+  color: var(--darkgray);
+}
+
+.hero-box strong {
+  color: var(--dark);
+}
+
+.hero-box a {
+  color: var(--secondary);
+
+  text-decoration: underline;
+
+  transition: color 0.2s ease;
+}
+
+.hero-box a:hover {
+  color: var(--tertiary);
+}
+
+/* mobile */
+@media all and ($mobile) {
+  .hero-box {
+    padding: 2rem 1.25rem;
+    border-radius: 18px;
+  }
+
+  .hero-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-box h2 {
+    font-size: 1rem;
+  }
+
+  .hero-box p {
+    font-size: 0.95rem;
+    line-height: 1.75rem;
+  }
+}
+
+/* =========================
+   SIMPLE 2-COLUMN OUTLINE LAYOUT
+========================= */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* mobile fallback */
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* outline-only cards */
+.card {
+  border: 1px solid var(--darkgray);
+  border-radius: 8px;
+
+  padding: 1rem 1.25rem;
+
+  background: transparent; /* no fill */
+}
+
+/* heading spacing only (no styling changes) */
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+/* remove default markdown spacing issues */
+.card p,
+.card ul {
+  margin: 0.5rem 0;
+}
