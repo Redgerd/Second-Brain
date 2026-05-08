@@ -5,8 +5,6 @@ alias:
   - ETL (Extract, Transform, Load)
   - ELT (Extract, Load, Transform)
 tags:
-  - foundation
-  - data-transformation
 ---
 
 | **Parameters**             | **ETL (Extract, Transform & Load)**                                                                                                                      | **ELT (Extract, Load & Transform)**                                                                                              |

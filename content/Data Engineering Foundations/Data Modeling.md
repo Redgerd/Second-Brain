@@ -2,10 +2,8 @@
 title: Data Modeling
 description: Core concepts of structuring data for efficient storage, querying, and analytics in data engineering systems.
 draft: false
-tags:
-  - foundation
-  - data-modeling
 ---
+
 ## # What Is Data Modeling?
 
 In the context of data engineering, data modeling creates a **structured representation of your organization’s data**. This representation, often illustrated visually, helps understand the relationships, constraints, and patterns within the data and serves as a blueprint for gaining business value in designing data systems, such as data warehouses, lakes, or any analytics solution.
@@ -26,7 +24,7 @@ In its most straightforward form, data modeling is how we design the flow of our
 
 ## # Conceptual, Logical & Physical Data Models
 
-![[Pasted image 20260426004405.png]]
+![[Data Engineering Foundations/pictures/Pasted image 20260426004352.png]]
 
 <details>
 <summary><strong>Conceptual → Logical → Physical Data Models</strong></summary>
@@ -34,7 +32,7 @@ In its most straightforward form, data modeling is how we design the flow of our
 The conceptual model represents a high-level view (top-down of the data), the logical model provides a more detailed representation of data relationships, and the physical model defines the actual implementation in the database or data storage system (bottom-up).
 
 </details>
-
+![[Data Engineering Foundations/pictures/Pasted image 20260426004352.png]]
 ## # Different Levels of Data Modeling
 
 Data modeling can be **applied at different levels** and contains more than just modeling. Besides the conceptual, logical, and physical data model, you can model your source OLTP database, warehouse, BI tool, and ML features. More importantly, we discuss further in this article the overall data modeling across the organization.
@@ -49,3 +47,19 @@ In the end, each layer of the [Data Engineering Lifecycle](https://glossary.air
    - [[Data Lakehouse]]: A unified analytical approach that combines the scalability of data lakes with the performance and structure of data warehouses, enabling both BI and machine learning workloads on a single platform.
 4. **BI tools and reporting (Presentation level)**: Designing the data structures, aggregations, and calculations used in reporting and visualization tools. Building the presentation layer may involve creating [[Semantic Layers]], such as data cubes, that simplify business users’ access to the underlying data.
 5. Machine learning and AI: Feature engineering, normalization, and data encoding to ensure compatibility with various algorithms and tools.
+
+## Other Important Types of Data Modeling (Based on Use Case)
+
+Beyond conceptual, logical, and physical models, data engineering also involves specialized modeling approaches tailored to different systems and workloads.
+
+### # [[Data Engineering Foundations/Normalization]] (OLTP Systems)
+
+Normalized data modeling is used in transactional systems (OLTP) where data integrity and consistency are critical. It follows normalization principles such as First, Second, and Third Normal Form (1NF, 2NF, 3NF) to eliminate redundancy and ensure accurate data storage. **This approach is well-suited for applications that involve frequent inserts, updates, and deletes.**
+
+### # [[Dimensional Modeling]] (Analytics)
+
+Dimensional modeling is primarily used in analytical systems such as data warehouses to support reporting and decision-making. It organizes data into fact tables (containing measurable metrics) and dimension tables (containing descriptive attributes). Common schema designs include the star schema and snowflake schema. **This approach is optimized for fast query performance and efficient aggregation rather than strict normalization.**
+
+### # [[Data Vault Modeling]]
+
+Data Vault modeling is a modern approach designed for scalable and flexible data warehousing. It is particularly effective for handling historical data and adapting to changing business requirements. The model is built using three core components: hubs (which store unique business keys), links (which represent relationships between entities), and satellites (which store descriptive attributes and historical changes).

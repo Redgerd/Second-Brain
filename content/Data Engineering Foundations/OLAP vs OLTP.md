@@ -31,5 +31,5 @@ When you read from a virtual view, the SQL engine expands it into the view’s u
 
 A common special case of a materialized view is known as a data cube or OLAP cube. It is a grid of aggregates grouped by different dimensions. 
 
-![[Pasted image 20260504083650.png]]
+![[Data Engineering Foundations/pictures/Pasted image 20260504083650.png]]
 

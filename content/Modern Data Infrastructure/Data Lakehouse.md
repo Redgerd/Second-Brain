@@ -13,7 +13,7 @@ The Databricks Lakehouse Platform merges the best aspects of data lakes and ware
 Let’s delve into some Delta Lake on Databricks examples, highlighting three key use cases for a Data Lakehouse:
 - **Unified ML and Analytics:** Utilize Collaborative Notebooks (Notebooks) over operational/relational databases, bypassing the initial efforts typically required with a data warehouse.
 - **Handling semi or unstructured data:** The Lakehouse’s capacity for querying such data with distributed engines like Apache Spark, Presto, Trino, or Photon Engine is enhanced by features like security, high transparency, and governance.
-- **Analytics on historical data:** Address the challenge of overwriting historical data in operational databases ([[OLAP vs OLTP|OLTP]]). With Databricks, sync this data into the Lakehouse and utilize time-travel features for querying historical data.
+- **Analytics on historical data:** Address the challenge of overwriting historical data in operational databases ([[Data Engineering Foundations/OLAP vs OLTP|OLTP]]). With Databricks, sync this data into the Lakehouse and utilize time-travel features for querying historical data.
 
 
 - Schema-on-Read + Schema-on-Write hybrid
