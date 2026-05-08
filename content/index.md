@@ -4,21 +4,20 @@ title: Second Brain
 
 <div class="hero-box">
 
-<h1>Data Vault</h1>
+<h1>Data Engineering Vault</h1>
 
-<h2>Crafted, Curated, Connected, Compounded</h2>
+<h2>Crafted, Connected, Compounded</h2>
 
 <p>
-Welcome to my public Second Brain, a crafted knowledge vault where my notes,
-ideas, and insights are carefully <strong>curated</strong>,
+Welcome to my public Second Brain, a knowledge map for my notes, regarding data engineering<strong>curated</strong>,
 <strong>connected</strong>, and <strong>compounded</strong> over time.
 </p>
 
 </div>
 
-## Key Topics & Concepts
+## Key Concept
 
-As you navigate through the concepts, you'll uncover hidden relationships, expanding your understanding and providing a unique, immersive learning experience whether you're a seasoned data engineer or just starting your journey.
+I used to take a lot of scattered notes while, but I often struggled with connecting concepts across different topics. This Second Brain is my attempt to solve that: by turning disconnected notes into a structured knowledge map where concepts are linked, contextual, and continuously reinforced over time.
 
 <div class="card-grid">
 
@@ -34,7 +33,7 @@ As you navigate through the concepts, you'll uncover hidden relationships, expan
 
 ## Modern Data Infrastructure
 
-[[Data Warehouse]], [[Data Lake]], [[Data Lakehouse]], [[Data Fabric]], [[Data Mart]], [[Data Mesh]]
+Data Warehouse, Data Lake, [[Data Lakehouse]], Data Fabric, Data Mart, Data Mesh
 
 </div>
 
