@@ -3,21 +3,15 @@ title: Second Brain
 ---
 
 <div class="hero-box">
-
 <h1>Data Engineering Vault</h1>
-
 <h2>Crafted, Connected, Compounded</h2>
-
 <p>
-Welcome to my public Second Brain, a knowledge map for my notes, regarding data engineering<strong>curated</strong>,
-<strong>connected</strong>, and <strong>compounded</strong> over time.
+I used to take a lot of scattered notes, but I often struggled with connecting concepts across different topics. This Second Brain is my attempt to solve that: by turning disconnected notes into a structured knowledge base where concepts are linked, contextual, and continuously reinforced over time.
 </p>
-
 </div>
+# Key Topics & Concepts
 
-## Key Concept
-
-I used to take a lot of scattered notes while, but I often struggled with connecting concepts across different topics. This Second Brain is my attempt to solve that: by turning disconnected notes into a structured knowledge map where concepts are linked, contextual, and continuously reinforced over time.
+As you navigate through the concepts, you'll uncover hidden relationships, expanding your understanding and providing a unique, immersive learning experience whether you're a seasoned data engineer or just starting your journey.
 
 <div class="card-grid">
 
@@ -33,7 +27,7 @@ I used to take a lot of scattered notes while, but I often struggled with connec
 
 ## Modern Data Infrastructure
 
-Data Warehouse, Data Lake, [[Data Lakehouse]], Data Fabric, Data Mart, Data Mesh
+[[Modern Data Infrastructure]] explores the evolution of data storage and architecture, from Warehouses to the Data Mesh.
 
 </div>
 
@@ -41,7 +35,7 @@ Data Warehouse, Data Lake, [[Data Lakehouse]], Data Fabric, Data Mart, Data Mesh
 
 ## Data Transformation & Processing
 
-[[SQL]], [[Data Transformation & Processing/ELT (Extract, Load, Transform)]], Apache Airflow, [[Apache Spark]]
+[[SQL]], [[ELT (Extract, Load, Transform)]], [[Apache Airflow]], [[Apache Spark]]
 
 </div>
 
@@ -49,8 +43,41 @@ Data Warehouse, Data Lake, [[Data Lakehouse]], Data Fabric, Data Mart, Data Mesh
 
 ## Specialized Data Technologies
 
-Data Contracts, Data Product, Change Data Capture (CDC), Snapshotting, Slowly Changing Dimension, Time Travel, ACID Transactions, Schema Evolution, Schema Drift, Software-Defined Asset, Data Integration CLI tools, Cube, VertiPaq, Idempotency
+[[Data Contracts]], [[Data Product]], [[Change Data Capture (CDC)]], [[Snapshotting]], [[Slowly Changing Dimension]], [[Time Travel]], [[ACID Transactions]], [[Schema Evolution]], [[Schema Drift]], [[Software-Defined Asset]], [[Data Integration CLI Tools]], [[Cube]], [[VertiPaq]], [[Idempotency]]
+
+</div>
+
+<div class="card">
+
+## AI Engineering
+
+LLMs, Prompt Engineering, Embeddings, Vector Databases, Retrieval Augmented Generation (RAG), AI Agents, Fine Tuning, OpenAI API, LangChain, LlamaIndex, Inference, Tokenization, Context Windows, Model Evaluation, AI Safety, Multimodal AI, Speech-to-Text, Text-to-Speech, Image Generation
+
+</div>
+
+<div class="card">
+
+## Professional Development
+
+[[Resources]]
 
 </div>
 
 </div>
+
+#### # [Associate Data Engineer](https://www.linkedin.com/jobs/view/4416499276/?trackingId=FdhvjPtgoQiBUhe7rlJhig%3D%3D&refId=F4lF5C5fKRL89c3I41gkNQ%3D%3D&eBP=NON_CHARGEABLE_CHANNEL&alternateChannel=search&isJobSearch=false) (jazz)
+Keeping it here as ref and motivation : )
+
+| Category                | Topics / Tools                                                                                                        |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Databases & Warehousing | Data Warehousing, Teradata, Oracle, PostgreSQL, MySQL, SQL Server                                                     |
+| SQL                     | SQL Query Writing, SQL Optimization, ETL using SQL                                                                    |
+| ETL & Pipelines         | ETL Concepts, ELT Concepts, Data Pipeline Development, Data Ingestion, Data Transformation, Informatica, Talend, SSIS |
+| Cloud Platforms         | Amazon Web Services, Microsoft Azure, Google Cloud Platform                                                           |
+| Cloud ETL Services      | AWS Glue, Azure Data Factory                                                                                          |
+| Modern Data Platforms   | Snowflake, Databricks, Amazon Redshift                                                                                |
+| Big Data Tools          | Apache Spark, Apache Airflow, Apache NiFi, Apache Hadoop, Apache Hive                                                 |
+| Programming             | Python, Shell Scripting                                                                                               |
+| Processes & Practices   | Agile Methodologies, Documentation, Issue Tracking                                                                    |
+| Core Concepts           | Data Engineering Concepts, Big Data Concepts, Problem Solving                                                         |
+| Education               | Computer Science, Software Engineering                                                                                |

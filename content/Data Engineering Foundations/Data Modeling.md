@@ -52,7 +52,7 @@ In the end, each layer of the [Data Engineering Lifecycle](https://glossary.air
 
 Beyond conceptual, logical, and physical models, data engineering also involves specialized modeling approaches tailored to different systems and workloads.
 
-### # [[Data Engineering Foundations/Normalization]] (OLTP Systems)
+### # [[Normalization]] (OLTP Systems)
 
 Normalized data modeling is used in transactional systems (OLTP) where data integrity and consistency are critical. It follows normalization principles such as First, Second, and Third Normal Form (1NF, 2NF, 3NF) to eliminate redundancy and ensure accurate data storage. **This approach is well-suited for applications that involve frequent inserts, updates, and deletes.**
 

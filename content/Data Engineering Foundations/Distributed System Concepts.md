@@ -141,7 +141,7 @@ Service Discovery
 Leader Election
 
 **Performance & Optimization**  
-Partitioning & Bucketing  
+[[Partitioning & Bucketing]] 
 Caching in distributed systems  
 Data skew handling  
 Throughput vs Latency tradeoffs

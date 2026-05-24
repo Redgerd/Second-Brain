@@ -43,7 +43,6 @@ Data Vault 2.0 is an **enhanced and standardized version of the original Data Va
 
 It keeps the same core structure—**Hubs, Links, and Satellites**—but adds **clear implementation rules, performance improvements, and support for modern platforms** like cloud data warehouses and distributed systems.
 
-
 ## # Difference between 1.0 and 2.0
 
 Data Vault 1.0, introduced by Dan Linstedt in the early 2000s, established the core principles:
@@ -69,14 +68,4 @@ Data Vault 2.0, released around 2013, built upon 1.0 by adding:
 
 ### # [[Dimensional Modeling]] vs. Data Vault
 
-Comparing to [[Dimensional Model]], althoought not the same, and used for different approaches, it’s interstintg to see how they compare:
-
 ![](https://www.ssp.sh/brain/img_Data%20Vault_1763285905456.webp)  
-
-Read more on [Revisiting Medallion Architecture: Data Vault in Silver, Dimensional Modeling in Gold](https://substack.com/home/post/p-176383962).
-
-Some helpful insight above by Dan Linstedt:
-
-> I really need readers to understand, you should never be comparing Data Vault 2.0 directly to Dimensional Model. The proper comparison is: **Data Vault Modeling** to Dimensional Modeling.
-> 
-> Why? Because Data Vault 2.0 is a solution for business intelligence, that includes: Architecture, Methodology, and Modeling. Where Methodology includes implementation, recommended practices, standards, and more. So comparing a modeling design to a modeling design is far more appropriate. Comparing a methodology to a single modeling design is not accurate. Just a few things to consider. Appreciate the article, thanks! Dan Linstedt on [linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7384964426380070912?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7384964426380070912%2C7386425384218566657%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287386425384218566657%2Curn%3Ali%3Aactivity%3A7384964426380070912%29)
