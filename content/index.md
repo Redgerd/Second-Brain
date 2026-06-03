@@ -9,6 +9,7 @@ title: Second Brain
 I used to take a lot of scattered notes, but I often struggled with connecting concepts across different topics. This Second Brain is my attempt to solve that: by turning disconnected notes into a structured knowledge base where concepts are linked, contextual, and continuously reinforced over time.
 </p>
 </div>
+
 # Key Topics & Concepts
 
 As you navigate through the concepts, you'll uncover hidden relationships, expanding your understanding and providing a unique, immersive learning experience whether you're a seasoned data engineer or just starting your journey.
@@ -66,6 +67,7 @@ LLMs, Prompt Engineering, Embeddings, Vector Databases, Retrieval Augmented Gene
 </div>
 
 #### # [Associate Data Engineer](https://www.linkedin.com/jobs/view/4416499276/?trackingId=FdhvjPtgoQiBUhe7rlJhig%3D%3D&refId=F4lF5C5fKRL89c3I41gkNQ%3D%3D&eBP=NON_CHARGEABLE_CHANNEL&alternateChannel=search&isJobSearch=false) (jazz)
+
 Keeping it here as ref and motivation : )
 
 | Category                | Topics / Tools                                                                                                        |
