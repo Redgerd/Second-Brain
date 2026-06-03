@@ -95,7 +95,7 @@ ETL --> BATCH
 SCHEMA --> LAKEHOUSE
 ```
 
-There are many distributed system concepts. Spme of them are described in this second brain. But here’s a table of the most important in data engineering:
+There are many distributed system concepts. Some of them are described in this second brain. But here’s a table of the most important in data engineering:
 
 | Category                           | Distributed System Concepts                                                                                                                                                                                      |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

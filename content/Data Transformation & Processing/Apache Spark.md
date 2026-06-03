@@ -14,19 +14,7 @@ In Spark 1.x, the RDD was the primary application programming interface (API), b
 RDDs were developed in 2012 in response to the limitations in the [[Map Reduce]] {continue later}
 
 Inside Apache Spark the workflow is managed as a directed acyclic graph (DAG). Nodes represent RDDs while edges represent the operations on the RDDs.
-
-### # Spark Core
-
 ### # Outline
-
-The below content  is mapped according to  [Databricks Certified Associate Developer for Apache Spark](https://www.databricks.com/sites/default/files/2025-10/databricks-certified-associate-developer-apache-spark-exam-guide-oct-2025.pdf) certification by [[Databricks]] along with [Apache Spark Documentation](https://spark.apache.org/docs/latest/index.html). 
-
-Furthermore I will be using the following courses provided by Databricks for free.
-
-1. [**Introduction to Apache Spark™**](https://customer-academy.databricks.com/learn/courses/3901/introduction-to-apache-spark?hash=6788372f2d7294e77f5eb6191645568ae747f68b&generated_by=409740)
-2. [**Developing Applications with Apache Spark™**](https://customer-academy.databricks.com/learn/courses/3962/developing-applications-with-apache-spark?hash=d2245ade317149fcb8f6d57ad991d9aa7f055f9f&generated_by=409740)
-3. [**Stream Processing and Analysis with Apache Spark™**](https://customer-academy.databricks.com/learn/courses/3959/stream-processing-and-analysis-with-apache-spark?hash=3e063f193bec2e8ca7cdf56ffbdced1657bcc087&generated_by=409740)
-4. [**Monitoring and Optimizing Apache Spark™ Workloads on Databricks**](https://customer-academy.databricks.com/learn/courses/3993/monitoring-and-optimizing-apache-spark-workloads-on-databricks?hash=ab93079e83ea33b616f97dc3100e8db490ec4e7a&generated_by=409740)
 
 | **Section**          | **Topic**                   | **Key Concepts & Components**                                                                                                                                                                                                           |
 | -------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,7 +22,7 @@ Furthermore I will be using the following courses provided by Databricks for fre
 |                      | **[[Execution Flow]]**      | **Lazy Evaluation:** Execution delayed until an Action. **Predicate Pushdown**: Pushes the filter condition down to the data source ,**Transformations vs Actions** Transformations build lineage, Actions trigger execution.           |
 |                      | **[[Execution Model]]**     | **DAG (Directed Acyclic Graph):** Represents computation flow. **Logical Plan → Physical Plan → Execution.** **Catalyst Optimizer:** Optimizes queries. **Tungsten Engine:** Enhances memory and CPU efficiency.                        |
 |                      | **[[Core Abstractions]]**   | **RDD:** Low-level distributed collection. **DataFrame/Dataset:** High-level structured APIs with schema and optimization. **SQL Tables**                                                                                               |
-|                      | **Shuffle**                 | Redistribution of data across partitions during operations like joins and aggregations.                                                                                                                                                 |
+|                      | [[Shuffle]]                 | Redistribution of data across partitions during operations like joins and aggregations.                                                                                                                                                 |
 |                      | **[[Memory & Storage]]**    | **Caching/Persistence:** Store intermediate data. **Storage Levels:** MEMORY_ONLY, MEMORY_AND_DISK, DISK_ONLY. Proper use improves performance.                                                                                         |
 | **2. Spark SQL**     | **Data Sources**            | Read/Write support for JDBC, CSV, JSON, ORC, Parquet, and Delta Lake. Schema can be inferred or explicitly defined.                                                                                                                     |
 |                      | **Optimization**            | **Catalyst Optimizer:** Rule-based and cost-based optimization. **Partition Pruning:** Reads only relevant data. **Predicate Pushdown:** Filters applied early.                                                                         |

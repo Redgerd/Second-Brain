@@ -9,7 +9,6 @@ title: Second Brain
 I used to take a lot of scattered notes, but I often struggled with connecting concepts across different topics. This Second Brain is my attempt to solve that: by turning disconnected notes into a structured knowledge base where concepts are linked, contextual, and continuously reinforced over time.
 </p>
 </div>
-
 # Key Topics & Concepts
 
 As you navigate through the concepts, you'll uncover hidden relationships, expanding your understanding and providing a unique, immersive learning experience whether you're a seasoned data engineer or just starting your journey.
