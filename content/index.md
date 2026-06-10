@@ -1,5 +1,6 @@
 ---
 title: Second Brain
+description: Data Engineering vault covering pipelines, modeling, Spark, SQL, and modern data systems.
 ---
 
 <div class="hero-box">
