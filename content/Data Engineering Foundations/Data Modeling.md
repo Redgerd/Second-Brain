@@ -24,7 +24,7 @@ In its most straightforward form, data modeling is how we design the flow of our
 
 ## # Conceptual, Logical & Physical Data Models
 
-![[Data Engineering Foundations/pictures/Pasted image 20260426004352.png]]
+![alt text](<../images/Pasted image 20260426004352.png>)
 
 <details>
 <summary><strong>Conceptual → Logical → Physical Data Models</strong></summary>
@@ -32,7 +32,7 @@ In its most straightforward form, data modeling is how we design the flow of our
 The conceptual model represents a high-level view (top-down of the data), the logical model provides a more detailed representation of data relationships, and the physical model defines the actual implementation in the database or data storage system (bottom-up).
 
 </details>
-![[Data Engineering Foundations/pictures/Pasted image 20260426004352.png]]
+
 ## # Different Levels of Data Modeling
 
 Data modeling can be **applied at different levels** and contains more than just modeling. Besides the conceptual, logical, and physical data model, you can model your source OLTP database, warehouse, BI tool, and ML features. More importantly, we discuss further in this article the overall data modeling across the organization.
