@@ -192,3 +192,7 @@ John              (1:402:1)
 ```
 
 When SQL Server finds **Ali** in the nonclustered index, it uses the RID to directly locate the row in the heap.
+### More on Indexes (Later)
+- Index Scanning (Index Seek vs Index Scan vs Table Scan)
+- Execution Plan (How the query optimizer estimates rows and chooses execution plans)
+- SARGability (Writing queries that allow indexes to be used efficiently)
