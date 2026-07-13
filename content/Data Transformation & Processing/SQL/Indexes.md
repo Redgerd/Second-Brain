@@ -129,7 +129,7 @@ That pointer is either the clustered index key in the cases where the base table
 | Faster range queries                   | Faster lookups on indexed columns    |
 | Usually the Primary Key                | Used for frequently searched columns |
 
-##### Row Locator
+##### # Row Locator
 
 A **Row Locator** is the information stored in the **leaf level of a nonclustered index** that tells SQL Server where the complete data row is located.
 
@@ -193,7 +193,7 @@ John              (1:402:1)
 
 When SQL Server finds **Ali** in the nonclustered index, it uses the RID to directly locate the row in the heap.
 
-### More on Indexes (Later)
+### # More on Indexes (Later)
 
 - Index Scanning (Index Seek vs Index Scan vs Table Scan)
 - Execution Plan (How the query optimizer estimates rows and chooses execution plans)
