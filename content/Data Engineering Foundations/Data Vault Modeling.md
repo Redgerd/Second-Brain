@@ -3,6 +3,8 @@ A **data vault** is a data modeling design pattern used to build a data wareho
 **Hubs** represent core business concepts, **links** represent relationships between hubs, and **satellites** store information about hubs and relationships between them.
 
 It is especially suited for the **Silver layer** in the [[Medallion Architecture]] in the [[Data Lakehouse]] paradigm, where raw data is transformed into structured, business-ready models. The data vault is a data model that is well-suited to organizations that are adopting the 
+
+![[Pasted image 20260611212440.png]]
 ## # Features
 
 Data Vault separates data into small, flexible components to avoid breaking the model when new data sources or changes are introduced. It focuses on **capturing raw data as-is** and preserving full history. Recently, there has been a significant shift towards using Data Vaults as governed Data Lakes. This shift addresses the key challenges we’ve identified in Data Warehousing:

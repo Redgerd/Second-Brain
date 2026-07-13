@@ -10,26 +10,17 @@ Oracle, formerly known as Relational Software, became the first vendor to offer 
 
 ## # Different parts of an SQL-Statement
 
-![[Data Engineering Foundations/pictures/Pasted image 20260425043823.png]]
-
+![[Pasted image 20260701004903.png]]
 ## # SQL Core Concept
 
 | Step | Topic                               | Subtopics                                                    |
 | ---- | ----------------------------------- | ------------------------------------------------------------ |
-| 1    | [[Data Definition Language]]        | DDL Commands, DDL Syntax                                     |
-| 2    | [[Data Manipulation Language]]      | DML Commands, SQL Clauses, DML vs DDL, DML vs TCL            |
-| 3    | [[Aggregate Queries]]               | Aggregate Functions                                          |
-| 4    | [[Data Constraints]]                | NOT NULL , UNIQUE, PRIMARY KEY, FOREIGN KEY ,CHECK ,DEFAULT  |
-| 5    | [[JOIN Queries]]                    | Cartesian Join, Self Join                                    |
-| 6    | [[Subqueries]]                      | Correlated Subqueries, Nested Subqueries, Join vs Subquery   |
-| 7    | [[Aggregate Functions]]             | String Functions, Date & Time Functions, Numeric Functions   |
-| 8    | [[Views]]                           | Create View, Update View, Drop View                          |
-| 9    | [[Indexes]]                         | Query Optimization, Best Practices                           |
-| 10   | [[Transactions]]                    | ACID Concepts, Transaction Control                           |
-| 11   | [[Data Integrity and Security]]     | Integrity Constraints, Access Control                        |
-| 12   | [[Stored Procedures and Functions]] | Reusability, Performance Benefits                            |
-| 13   | [[Performance Optimization]]        | Query Tuning, Indexing Strategies                            |
-| 14   | [[Advanced SQL]]                    | Window Functions, CTEs, Pivot/Unpivot, Dynamic SQL, Triggers |
+| 1    | [[Indexes]]                         | Query Optimization, Best Practices                           |
+| 2    | [[Transactions]]                    | ACID Concepts, Transaction Control                           |
+| 3    | [[Data Integrity and Security]]     | Integrity Constraints, Access Control                        |
+| 5    | [[Stored Procedures and Functions]] | Reusability, Performance Benefits                            |
+| 6    | [[Performance Optimization]]        | Query Tuning, Indexing Strategies                            |
+| 7    | [[Advanced SQL]]                    | Window Functions, CTEs, Pivot/Unpivot, Dynamic SQL, Triggers |
 ## # Advanced SQL Extensions
 
 | Topic | Subtopics |

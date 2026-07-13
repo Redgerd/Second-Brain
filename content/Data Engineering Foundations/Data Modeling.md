@@ -3,7 +3,6 @@ title: Data Modeling
 description: Core concepts of structuring data for efficient storage, querying, and analytics in data engineering systems.
 draft: false
 ---
-
 ## # What Is Data Modeling?
 
 In the context of data engineering, data modeling creates a **structured representation of your organization’s data**. This representation, often illustrated visually, helps understand the relationships, constraints, and patterns within the data and serves as a blueprint for gaining business value in designing data systems, such as data warehouses, lakes, or any analytics solution.
