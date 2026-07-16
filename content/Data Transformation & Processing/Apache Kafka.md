@@ -49,6 +49,6 @@ An offset is a unique identifier assigned to each message in a partition. This h
 A **broker** is a single Kafka server that stores topic partitions and serves client requests. Multiple brokers form a **Kafka cluster**, ensuring redundancy and horizontal scalability. A typical cluster may consist of three to ten or more brokers, depending on workload.
 
 ![[Pasted image 20260717001829.png]]
-### Further Reading
+### # Further Reading
 - [Apache Kafka Deep Dive: Core Concepts, Data Engineering Applications, and Real-World Production Practices](https://dev.to/fredmunjogu/apache-kafka-deep-dive-core-concepts-data-engineering-applications-and-real-world-production-549d)
 - [Apache Kafka Deep Dive: Core Concepts, Data Engineering Applications, and Real-World Production Practices](https://medium.com/@petermari658/apache-kafka-deep-dive-core-concepts-data-engineering-applications-and-real-world-production-797c896adcab)
