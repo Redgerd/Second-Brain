@@ -13,14 +13,12 @@ Oracle, formerly known as Relational Software, became the first vendor to offer 
 ![[Pasted image 20260701004903.png]]
 ## # SQL Core Concept
 
-| Step | Topic                               | Subtopics                                                    |
-| ---- | ----------------------------------- | ------------------------------------------------------------ |
-| 1    | [[Indexes]]                         | Query Optimization, Best Practices                           |
-| 2    | [[Transactions]]                    | ACID Concepts, Transaction Control                           |
-| 3    | [[Data Integrity and Security]]     | Integrity Constraints, Access Control                        |
-| 5    | [[Stored Procedures and Functions]] | Reusability, Performance Benefits                            |
-| 6    | [[Performance Optimization]]        | Query Tuning, Indexing Strategies                            |
-| 7    | [[Advanced SQL]]                    | Window Functions, CTEs, Pivot/Unpivot, Dynamic SQL, Triggers |
+| Step | Topic                        | Subtopics                                                    |
+| ---- | ---------------------------- | ------------------------------------------------------------ |
+| 1    | [[Indexes]]                  | Query Optimization, Best Practices                           |
+| 2    | [[Transactions]]             | ACID Concepts, Transaction Control                           |
+| 3    | [[Performance Optimization]] | Query Tuning, Indexing Strategies                            |
+| 4    | [[Advanced SQL]]             | Window Functions, CTEs, Pivot/Unpivot, Dynamic SQL, Triggers |
 ## # Advanced SQL Extensions
 
 | Topic | Subtopics |

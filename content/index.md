@@ -36,7 +36,7 @@ As you navigate through the concepts, you'll uncover hidden relationships, expan
 
 ## Data Transformation & Processing
 
-[[SQL]], [[ELT (Extract, Load, Transform)]], [[Apache Airflow]], [[Apache Spark]]
+[[SQL]], [[ELT (Extract, Load, Transform)]], [[Apache Airflow]], [[Apache Spark]], [[Apache Kafka]]
 
 </div>
 
