@@ -18,7 +18,7 @@ tags:
 
 ### # ELT (Extract, Load, Transform)
 
-- In the [[Modern Data Infrastructure/Data Lakehouse|Data Lakehouse]], the **ELT (Extract, Load, Transform)** approach is followed instead of **traditional ETL.** 
+- In the [[Modern Data Infrastructure/[[Data Lakehouse]]|[[Data Lakehouse]]]], the **ELT (Extract, Load, Transform)** approach is followed instead of **traditional ETL.** 
 - Data is first loaded in its raw form into the Bronze layer, and then lightweight, “just-enough” transformations are applied when moving into the Silver layer. 
 - The focus at this stage is on speed, scalability, and agility, ensuring that data is quickly ingested and made available for downstream use.
 - Rather than applying heavy business logic early, the Silver layer performs essential cleansing and standardization only, while complex transformations and business rules are deferred to the Gold layer. 

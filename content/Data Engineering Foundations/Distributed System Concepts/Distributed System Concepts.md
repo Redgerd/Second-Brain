@@ -1,4 +1,3 @@
-
 ```mermaid
 graph TD
 
@@ -85,7 +84,7 @@ CACHE --> LAT
 LAT --> MAPR
 
 ETL["ETL vs ELT"]
-LAKE["Data Lake vs Warehouse"]
+LAKE["[[Data Lake]] vs Warehouse"]
 LAKEHOUSE["Lakehouse Architecture"]
 SCHEMA["Schema Evolution"]
 
@@ -107,4 +106,4 @@ There are many distributed system concepts. Some of them are described in this s
 | Consistency & Reliability          | Eventual Consistency, Strong Consistency, Idempotency in distributed systems, Retries, Backoff Strategies, Dead Letter Queues (DLQ)                                                                              |
 | System Reliability & Design        | Load Balancing, Backpressure Handling, Circuit Breaker Pattern, Service Discovery, Leader Election                                                                                                               |
 | Performance & Optimization         | [[Partitioning & Bucketing]], Caching in distributed systems, Data skew handling, Throughput vs Latency tradeoffs                                                                                                |
-| Data Engineering Specific Concepts | ETL vs ELT in distributed systems, Data Lake vs Data Warehouse architecture, Lakehouse architecture (Delta Lake / Iceberg / Hudi), Schema evolution in distributed pipelines                                     |
+| Data Engineering Specific Concepts | ETL vs ELT in distributed systems, [[Data Lake]] vs [[Data Warehouse]] architecture, Lakehouse architecture (Delta Lake / Iceberg / Hudi), Schema evolution in distributed pipelines                             |
