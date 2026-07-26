@@ -7,7 +7,8 @@ A subquery that executes independently of the outer query. It runs once and its 
 
 **Common Use Cases**
 - Compare against an aggregate (AVG, MAX, MIN)
-- Filter using a list of values (`IN`)
+- Filter using a list of values (`IN`) 
+> `IN` filter is for any different table 
 - Retrieve a constant value
 
 ```sql
@@ -91,7 +92,8 @@ WHERE NOT EXISTS (
 ```sql
 SELECT customer_id
 FROM Customers c
-WHERE NOT EXISTS (
+WHERE Sakary < 500 
+and NOT EXISTS (
     SELECT 1
     FROM Orders o
     WHERE o.customer_id = c.customer_id

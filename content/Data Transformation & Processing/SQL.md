@@ -47,23 +47,23 @@ Oracle, formerly known as Relational Software, became the first vendor to offer 
 | SQL vs NoSQL | Differences, Use Cases, Trade-offs |
 ## # SQL Interview Practice
 
-| Category            | Example Questions                                                     |
-| ------------------- | --------------------------------------------------------------------- |
-| Basic Queries       | Filtering, Sorting, DISTINCT                                          |
-| Joins               | Customer Orders, Missing Records, Self Joins                          |
-| Aggregations        | Sales by Department, Revenue Analysis, Grouped Metrics                |
-| Ranking             | Second Highest Salary, Nth Highest Salary, Top N per Group            |
-| Duplicates          | Find Duplicates, Remove Duplicates, Keep Latest Record                |
-| Latest Record       | Latest Order per Customer, First Purchase, Most Recent Login          |
-| Window Functions    | Running Totals, ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), LEAD()     |
-| Consecutive Records | Consecutive Logins, Gap & Island Problems, Longest Streak             |
-| Date Problems       | Monthly Revenue, Rolling 7-Day Average, Year-over-Year Growth         |
-| String Problems     | Split Strings, Extract Substrings, Replace Characters                 |
-| NULL Handling       | Replace NULLs, Count NULLs, Handle Missing Values                     |
-| Subqueries          | [[EXISTS, NOT EXISTS, Correlated Subqueries]]                         |
-| Business Cases      | Customer Retention, Churn Analysis, Funnel Analysis, Repeat Customers |
-| Data Engineering    | Deduplication, Incremental Loads, MERGE, SCD Type 1 & Type 2          |
-| Optimization        | Query Tuning, Execution Plans, Index Usage                            |
+| Category            | Example Questions                                                       |
+| ------------------- | ----------------------------------------------------------------------- |
+| Basic Queries       | Filtering, Sorting, DISTINCT                                            |
+| Joins               | Customer Orders, Missing Records, Self Joins                            |
+| Aggregations        | Sales by Department, Revenue Analysis, Grouped Metrics                  |
+| Ranking             | Second Highest Salary, Nth Highest Salary, Top N per Group              |
+| Duplicates          | Find Duplicates, Remove Duplicates, Keep Latest Record                  |
+| Latest Record       | Latest Order per Customer, First Purchase, Most Recent Login            |
+| Window Functions    | Running Totals, ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), LEAD()       |
+| Consecutive Records | Consecutive Logins, Gap & Island Problems, Longest Streak               |
+| Date Problems       | Monthly Revenue, Rolling 7-Day Average, Year-over-Year Growth           |
+| String Problems     | Split Strings, Extract Substrings, Replace Characters                   |
+| NULL Handling       | Replace NULLs, Count NULLs, Handle Missing Values                       |
+| Subqueries          | [[EXISTS, NOT EXISTS, Correlated Subqueries]], [[Aggregate Comparison]] |
+| Business Cases      | Customer Retention, Churn Analysis, Funnel Analysis, Repeat Customers   |
+| Data Engineering    | Deduplication, Incremental Loads, MERGE, SCD Type 1 & Type 2            |
+| Optimization        | Query Tuning, Execution Plans, Index Usage                              |
 ## # SQL System Design
 
 | Topic | Subtopics |
